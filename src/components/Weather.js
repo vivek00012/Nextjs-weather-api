@@ -11,7 +11,7 @@ const Weather = ({ data }) => {
         <div className="flex flex-col items-center ">
           <div className="h-[150px]">
             <Image
-              src={`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png
+              src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png
                 `}
               alt="/"
               width="100"
